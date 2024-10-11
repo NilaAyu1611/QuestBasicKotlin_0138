@@ -16,4 +16,8 @@ fun ContohList() {
     shape.add("Circle")  // metdos add
     println(shape)
 
+    // Menghapus data dari List Mutable
+    shape.remove("Triangle")
+    println(shape)
+
 }
