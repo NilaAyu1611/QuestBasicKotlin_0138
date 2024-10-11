@@ -6,5 +6,9 @@ fun ContohList() {
     val readOnlyAbjad = listOf("A", "B", "C")
     println(readOnlyAbjad)          // mencetak elemenya
 
+    // List Mutable --> data yang bisa diubah
+    val shape: MutableList<String> =
+        mutableListOf("Circle", "Square", "Triangle")
+    println(shape)
 
 }
