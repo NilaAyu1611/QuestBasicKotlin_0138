@@ -20,4 +20,7 @@ fun ContohList() {
     shape.remove("Triangle")
     println(shape)
 
+    // Mengubah data di salam List Mutable
+    shape[0] = "Oval"
+    println(shape)
 }
