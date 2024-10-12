@@ -28,3 +28,13 @@ fun ContohList() {
     val shapesLocked: List<String> = shape      // Mencegah modifikasi yang tidak diininkan, jadi hanya view yang bersifat Read-Only dari mutable list
     println(shapesLocked)
 }
+
+fun ContohSet() {
+    println()
+    println("=== Set ===")          // Set --> data yang tidak urut, tetapi unik / tidak bsa menyimpan data double
+
+    // Set Read-Only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(println(readOnlyAbjad))
+
+}
