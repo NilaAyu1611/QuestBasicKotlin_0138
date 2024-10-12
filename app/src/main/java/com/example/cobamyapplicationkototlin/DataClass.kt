@@ -19,6 +19,12 @@ fun main() {
     val data2 = DataClass(1, "makan@gmaul.com")
     println(data == data2) // false
 
+// Fungsi Copy --> buat contoh kelas dengan menyalin kelas lain, mungkin beberapa beda properti
+    val data3 = data.copy()
+    println(data3)
 
+// Fungsi Copy dengan perubahan
+    val data4 = data.copy(email = "sahar@gmail.com")
+    println(data4)
 }
 
