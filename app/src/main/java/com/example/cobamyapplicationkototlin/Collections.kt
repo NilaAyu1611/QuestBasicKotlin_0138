@@ -49,4 +49,10 @@ fun ContohSet() {
     shape.remove("Circle")
     println(shape)
 
+    // Set Read-Only
+    val shapesLocked: Set<String> = shape       // Mencegah modifikasi yang tidak diininkan, jadi hanya view yang bersifat Read-Only dari mutable Set
+    println(shapesLocked)
+
+
+
 }
