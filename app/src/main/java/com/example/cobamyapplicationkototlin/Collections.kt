@@ -37,4 +37,7 @@ fun ContohSet() {
     val readOnlyAbjad = setOf("A", "B", "C")
     println(println(readOnlyAbjad))
 
+    // Set Mutable --> dapat diubah, unik dan tidak berurutan
+    val shape: MutableSet<String> = mutableSetOf("Circle", "Square", "Triangle")
+    println(shape)
 }
