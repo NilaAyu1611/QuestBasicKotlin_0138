@@ -65,3 +65,8 @@ fun Perulangan() {
         y++
     } while (y <= 5)
 }
+
+fun main() {                        // Memanggil fungsi sebelumnya
+    ConditionalStatement()
+    Perulangan()
+}
