@@ -23,4 +23,8 @@ fun ContohList() {
     // Mengubah data di salam List Mutable
     shape[0] = "Oval"
     println(shape)
+
+    // List Read-Only
+    val shapesLocked: List<String> = shape      // Mencegah modifikasi yang tidak diininkan, jadi hanya view yang bersifat Read-Only dari mutable list
+    println(shapesLocked)
 }
