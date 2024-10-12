@@ -80,6 +80,10 @@ fun ContohMap() {
     shape["Square"] = 5
     println(shape)
 
+    // Map Read-Only
+    val shapesLocked: Map<String, Int> = shape          // Mencegah modifikasi yang tidak diinginkan, jadi hanya view yang bersifat Read-Only dari mutable Set
+    println(shapesLocked)
+
 
 
 }
