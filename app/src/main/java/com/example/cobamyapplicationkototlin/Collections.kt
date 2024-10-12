@@ -87,3 +87,9 @@ fun ContohMap() {
 
 
 }
+
+fun main(){             // Menjalankan fungsi sebelumnya secara berurut
+    ContohList()
+    ContohSet()
+    ContohMap()
+}
